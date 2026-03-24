@@ -42,6 +42,15 @@ Guides diagram type selection across 7 diagram types, content structure, illustr
 
 `10 files` · `2,297 lines`
 
+### Design Systems
+Build, document, and maintain design systems with design tokens, component specifications, pattern libraries, naming conventions, and governance processes.
+
+Covers the full lifecycle of design systems — from interface inventory and consolidation through token architecture, component hierarchy, pattern documentation, and long-term governance. Grounded in Atomic Design methodology, pattern-driven approaches, and real-world systems.
+
+**Key references:** Component hierarchy (atoms through pages), 3-tier design token architecture with W3C format, pattern documentation standards, governance models (centralized/federated/hybrid), perceptual patterns (color systems, typography scales, spacing, motion, voice & tone), system maturity model (5 levels).
+
+`13 files` · `~4,500 lines`
+
 ### Design Elevation
 Transform functional visual outputs into polished, professional designs.
 
@@ -115,6 +124,10 @@ These skills synthesize material from established frameworks and standards:
 - **Nielsen's 10 Usability Heuristics** — Heuristic evaluation framework and severity scales
 - **Laws of UX** (lawsofux.com) — 27 UX laws organized by design domain
 - **System Usability Scale (SUS)** — Standardized usability questionnaire and scoring methodology
+- **Atomic Design** — Five-level component hierarchy, pattern lab, interface inventories
+- **Design Systems** — Functional and perceptual patterns, shared language, pattern lifecycle
+- **W3C Design Tokens Community Group** — Token format specification, type system, alias syntax
+- **Real-world design systems** — Material Design 3, Polaris (Shopify), Carbon (IBM), Spectrum (Adobe), Lightning (Salesforce)
 - **Interaction design principles** — Product posture, perpetual intermediates, excise, orchestration, affordances
 - **Alignment diagram methodology** — Journey maps, service blueprints, experience maps, ecosystem models
 - **Service design principles** — Touchpoints, co-production, service ecology
