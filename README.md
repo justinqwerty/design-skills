@@ -60,6 +60,15 @@ Covers the full strategy process — from framing business context through custo
 
 `13 files` · `~5,500 lines`
 
+### Interaction Design
+Design microinteractions, product behavior, state machines, motion, and error prevention for digital products.
+
+Covers the full interaction design process — from microinteraction specification (trigger → rules → feedback → loops/modes) through product posture analysis, state inventory audits, excise elimination, motion design, and error prevention hierarchies. Grounded in Cooper's About Face methodology and Saffer's microinteraction framework.
+
+**Key references:** Microinteraction four-part framework (triggers, rules, feedback, loops/modes), product postures (sovereign/transient/daemonic), perpetual intermediates, orchestration and flow, excise types (navigational/modal/cognitive/physical), state design (12 states per element), motion principles (Disney-adapted for UI, timing/easing guidelines), error prevention hierarchy (6 levels), undo patterns, loading patterns, recovery flows.
+
+`12 files` · `~5,000 lines`
+
 ### Design Elevation
 Transform functional visual outputs into polished, professional designs.
 
@@ -142,7 +151,10 @@ These skills synthesize material from established frameworks and standards:
 - **UX Strategy** (Jaime Levy) — Competitive analysis, value innovation, funnel design, guerrilla research
 - **Lean UX** (Jeff Gothelf & Josh Seiden) — Hypothesis-driven design, outcomes over outputs, MVP strategy, proto-personas
 - **HEART Framework** (Google) — Happiness, Engagement, Adoption, Retention, Task Success metrics
-- **Interaction design principles** — Product posture, perpetual intermediates, excise, orchestration, affordances
+- **About Face** (Alan Cooper) — Product postures, perpetual intermediates, excise elimination, orchestration, considerate software, goal-directed design
+- **Microinteractions** (Dan Saffer) — Four-part framework (trigger/rules/feedback/loops), signature moments, long wow lifecycle
+- **Statecharts and state machines** — Harel statecharts, parallel states, nested states, UI state modeling
+- **Motion design conventions** — Material Design 3 motion system, Apple Human Interface Guidelines animation principles, Disney's 12 principles adapted for UI
 - **Alignment diagram methodology** — Journey maps, service blueprints, experience maps, ecosystem models
 - **Service design principles** — Touchpoints, co-production, service ecology
 - **Continuous discovery** — Opportunity Solution Trees, assumption testing, story-based interviewing
