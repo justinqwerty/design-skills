@@ -36,11 +36,11 @@ A 5-layer audit process (automated, keyboard, screen reader, visual, flow) cover
 ### Journey Mapping
 Create customer journey maps, service blueprints, experience maps, empathy maps, and other alignment diagrams.
 
-Guides diagram type selection across 7 diagram types, content structure, illustration syntax, and alignment workshops. Based on established alignment diagram methodology and service design practice.
+Guides diagram type selection across 7 diagram types, content structure, illustration syntax, and alignment workshops. Grounded in established alignment diagram methodology and Polaine, Løvlie & Reason's service design framework.
 
-**Key references:** Customer journey maps (8 required + 7 optional elements), service blueprints (5 swimlanes, 3 lines), experience maps and mental models, alignment workshop facilitation (half-day and full-day formats).
+**Key references:** Customer journey maps (8 required + 7 optional elements), service blueprints (5 swimlanes, 3 lines, blueprint slices, SERVQUAL/RATER measurement), experience types (transactional/continuous/transformational), service ecology mapping, experience prototyping (3 fidelity levels), expectation gap analysis, time as a design object, experience maps and mental models, alignment workshop facilitation (half-day and full-day formats).
 
-`10 files` · `2,297 lines`
+`10 files` · `2,700+ lines`
 
 ### Design Systems
 Build, document, and maintain design systems with design tokens, component specifications, pattern libraries, naming conventions, and governance processes.
@@ -161,6 +161,7 @@ These skills synthesize material from established books, frameworks, and standar
 - **Microinteractions** (Dan Saffer) — Four-part framework (trigger/rules/feedback/loops), signature moments, long wow lifecycle
 - **Modular Web Design** (Nathan Curtis) — Design system governance, contribution models, adoption strategies
 - **Outcome-Driven Innovation** (Tony Ulwick) — Desired outcome statements, importance-satisfaction framework, opportunity scoring
+- **Service Design** (Andrew Polaine, Lavrans Løvlie, Ben Reason) — Service ecologies, blueprints, experience types, SERVQUAL/RATER, experience prototyping, co-production
 - **Sprint** (Jake Knapp, John Zeratsky, Braden Kowitz) — 5-day design sprint methodology, team roles, prototyping, user testing with 5 participants
 - **The Innovator's Dilemma** (Clayton Christensen) — Disruptive innovation theory, jobs-to-be-done origin
 - **UX Strategy** (Jaime Levy) — Competitive analysis, value innovation, funnel design, guerrilla research

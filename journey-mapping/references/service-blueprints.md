@@ -247,6 +247,20 @@ The blueprint helps you see connections between frontstage and backstage metrics
 - **Journey-level:** How long does the complete journey take? Where do people drop off?
 - **System-level:** How do all touchpoints work together? Where are the bottlenecks?
 
+### SERVQUAL / RATER Framework
+
+A structured way to measure service quality by comparing user expectations against actual experience across five dimensions. Use this to evaluate the service your blueprint describes.
+
+| Dimension | What It Measures | Blueprint Application |
+|---|---|---|
+| **Reliability** | Delivering the promised service dependably and accurately | Are frontstage promises matched by backstage delivery? Where do handoffs drop the ball? |
+| **Assurance** | Knowledge and courtesy that inspires trust and confidence | Do customer-facing actions convey competence? Where do users lose confidence? |
+| **Tangibles** | Quality of physical evidence, interfaces, and communications | Is the physical evidence lane well-designed at every touchpoint? |
+| **Empathy** | Caring, individualized attention to customer needs | Does the service adapt to individual situations, or treat everyone identically? |
+| **Responsiveness** | Willingness and speed in helping customers | Where are wait times? Where does the backstage create delays the customer feels? |
+
+**How to use:** Survey users on expectations (1-7 scale) and actual experience (1-7 scale) for each dimension. The gap between the two reveals where to focus improvement efforts. Map findings back to specific blueprint touchpoints.
+
 ---
 
 ## Service Design Principles for Blueprints
@@ -275,6 +289,69 @@ A blueprint focuses on one journey through one service. But services exist in ec
 3. **Customers** — Return value (payment, data, participation)
 
 When a blueprint reveals problems that can't be solved within the current service boundary, zoom out to the ecology level.
+
+---
+
+## Taking Slices Through the Blueprint
+
+A full blueprint can be overwhelming. Use "slices" to examine specific aspects of the service — each slice is a lens through the same diagram.
+
+| Slice | What You Examine | When to Use |
+|---|---|---|
+| **Customer journey slice** | One persona's complete experience across all lanes | Understanding end-to-end experience for a specific user |
+| **Channel slice** | All interactions in one channel (e.g., mobile app, phone, in-person) | Ensuring channel-appropriate design and cross-channel coordination |
+| **Touchpoint slice** | Deep dive into one specific interaction moment | Redesigning a critical touchpoint |
+| **Backstage slice** | Operations and systems only — ignore the customer for a moment | Identifying enablers, bottlenecks, and operational improvements |
+| **Time slice** | A vertical cut at one moment — what's happening in all lanes simultaneously | Understanding coordination requirements at critical moments |
+
+**How to slice:**
+1. Start with the full blueprint for orientation
+2. Choose the slice that answers your current question
+3. Trace through that lens, noting pain points and dependencies
+4. Present slices to different audiences — engineering sees the backstage slice, customer success sees the journey slice, leadership sees the full picture
+
+---
+
+## Service Propositions: Three Essential Questions
+
+When using a blueprint to design or evaluate a service, every touchpoint and flow must pass three tests. If users can't answer these questions, the service will fail regardless of operational quality.
+
+| # | Question | What It Tests | Warning Signs |
+|---|---|---|---|
+| 1 | **Do people understand what the service is or does?** | Comprehension — can users explain it in their own words? | Jargon-heavy descriptions, unclear value, "What does this do?" in user tests |
+| 2 | **Do people see the value of it in their life?** | Relevance — is it worth the effort to switch or adopt? | Users say "nice" but don't act, low activation rates, "I already do this with [workaround]" |
+| 3 | **Do people understand how to use it?** | Usability — are the next steps obvious? | Confusion at first use, support tickets about basic tasks, low completion rates |
+
+These questions apply at every level — from the full service proposition down to individual touchpoints on the blueprint.
+
+---
+
+## Experience Prototyping for Services
+
+Services can't be held, inspected, or tested before purchase the way products can. Experience prototyping simulates the service so you can test it before committing to full implementation.
+
+### Prototype Fidelity Levels
+
+| Level | What It Is | Best For | Cost |
+|---|---|---|---|
+| **Discussion prototype** | Verbal description, storyboard, concept sketch, role-play | Getting initial reactions, testing comprehension | Very low — hours |
+| **Working prototype** | Simulated touchpoints, paper prototypes, Wizard of Oz (humans simulate systems) | Testing usability, value perception, flow | Low-medium — days |
+| **Live prototype** | Real or near-real implementation, limited pilot, beta | Testing full service in context, operational feasibility | Medium-high — weeks |
+
+**Rules:**
+1. **Match fidelity to the question.** Testing comprehension? Discussion prototype is enough. Testing operational feasibility? You need a live prototype
+2. **Start low, increase as needed.** Don't build a pilot when a storyboard would answer the question
+3. **Test the three essential questions** at every fidelity level — comprehension, value, usability
+4. **Include the time dimension.** Service prototypes should unfold over time (even simulated), not just show a single screen
+
+### What to Observe During Service Prototypes
+
+| Dimension | What to Watch For |
+|---|---|
+| **Comprehension** | Can they explain what the service does? Do they understand what to do next? |
+| **Value perception** | Would they actually use this? Would they recommend it? |
+| **Behavior** | Do they do what you expect? Where do they get confused or create workarounds? |
+| **Emotional response** | What moments cause frustration or delight? Does reality match expectations? |
 
 ---
 

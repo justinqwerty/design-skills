@@ -7,7 +7,7 @@ description: Create customer journey maps, service blueprints, experience maps, 
 
 You are an expert in alignment diagrams — the family of visualizations that align an individual's experience with an organization's operations. You help teams create journey maps, service blueprints, experience maps, empathy maps, mental model diagrams, and ecosystem models.
 
-Your work is grounded in established alignment diagram methodology and service design practice.
+Your work is grounded in established alignment diagram methodology and service design practice, including Polaine, Løvlie & Reason's service design framework.
 
 ## Core Principle
 
@@ -196,6 +196,33 @@ For a fillable template, see `templates/empathy-map-template.md`.
 
 ---
 
+## Types of Service Experience
+
+Services are not products — they are performances that unfold over time. Understanding the type of experience you're mapping changes how you structure the diagram and what you look for.
+
+| Type | Duration | User Investment | Design Focus | Example |
+|---|---|---|---|---|
+| **Transactional** | Minutes | Low — get in, get out | Speed, efficiency, minimize friction | ATM withdrawal, online bill pay, food delivery |
+| **Continuous** | Weeks to years | Medium — ongoing relationship | Trust, consistency, relationship quality | Healthcare, banking, subscription services |
+| **Transformational** | Months to years | High — user changes state | Progression, motivation, milestones | Education, fitness programs, therapy |
+
+**Design implications by type:**
+- **Transactional:** Map the fewest possible steps. Every extra step is excise. Measure time-on-task
+- **Continuous:** Map the full lifecycle — onboarding, regular use, renewal, recovery, offboarding. Measure retention and relationship quality over time
+- **Transformational:** Map the progression arc. Include "before" and "after" states. Measure outcomes, not just satisfaction
+
+### The Expectation Gap
+
+The gap between what people expect and what they experience drives satisfaction more than absolute quality. A mediocre experience that exceeds expectations delights. An excellent experience that falls short disappoints.
+
+**For every journey map, ask:**
+- What does the user expect at each phase? (Shaped by marketing, competitors, prior experience)
+- Where does reality exceed expectations? (Moments of delight — protect these)
+- Where does reality fall short? (Pain points — these are your priorities)
+- Where can you reset expectations proactively? (Communication, transparency)
+
+---
+
 ## Moments of Truth
 
 Moments of truth are critical, emotionally intense moments that define the relationship between a person and a service. They are the moments when expectations are confirmed or shattered.
@@ -222,6 +249,24 @@ Moments of truth are critical, emotionally intense moments that define the relat
 - **Peak-End Rule** — People remember the peak emotional moment and the ending. Design both deliberately
 - **Recovery moments** are often more powerful than smooth moments. A well-handled failure builds more loyalty than seamless success
 - **Flag moments of truth on every diagram** — They should be the most visually prominent elements
+
+---
+
+## Time as a Design Object
+
+Services unfold over time in ways that products don't. When mapping any service journey, consider four dimensions of time:
+
+| Dimension | Design Question | Mapping Implication |
+|---|---|---|
+| **Duration** | How long does each interaction take? Is perceived time different from actual time? | Mark duration on each step. Flag steps where perceived wait exceeds actual wait |
+| **Sequence** | Does the order of interactions matter? What must come before what? | Identify dependencies. Note where users try to skip ahead or go back |
+| **Frequency** | How often does each interaction occur? Daily, weekly, once? | Distinguish routine touchpoints from rare ones. Routine needs efficiency; rare needs guidance |
+| **Timing** | When do interactions happen? Are they synchronous or asynchronous? Time-sensitive or flexible? | Mark time constraints. Flag moments where bad timing creates pain (e.g., notification at 2am) |
+
+**Designing for time:**
+- Short-term bad experience can be offset by long-term value — but only if you manage expectations through communication
+- Consistency across touchpoints over time builds trust. A single off-brand interaction breaks it
+- Don't cluster frustrations at peaks or endings — the Peak-End Rule means these disproportionately shape memory
 
 ---
 

@@ -161,6 +161,46 @@ Ecosystem models visualize relationships between actors, systems, and content in
 
 ---
 
+## Service Ecology Mapping
+
+Service ecology maps visualize the complete web of relationships in which a service operates — all actors, all value exchanges, all dependencies. They are broader than ecosystem models (which focus on entities and flows) because they include the motivations, promises, and power dynamics between stakeholders.
+
+### Why Map Service Ecologies?
+
+- **Services are created in silos but experienced as a whole.** Organizations structure themselves around internal efficiency; customers experience disconnected touchpoints. The ecology map reveals the gap
+- **Invisible connections drive visible problems.** A customer pain point at one touchpoint may be caused by a broken relationship three steps upstream
+- **Services are co-produced.** Both the provider and the customer contribute effort. The ecology shows who does what and whether the burden is balanced
+
+### The Three Core Components
+
+| Component | Role | Returns |
+|---|---|---|
+| **Enterprise** | Makes a promise to customers (the value proposition) | Revenue, data, market position |
+| **Agents** | Deliver the promise through channels (staff, technology, partners) | Compensation, purpose, growth |
+| **Customers** | Receive the service, co-produce part of it | Value (the service outcome), data, payment, participation |
+
+**Healthy ecologies have reciprocal value exchange** — value flows in multiple directions, not just from customer to enterprise. When the exchange is one-sided (extractive), the ecology breaks down.
+
+### Building a Service Ecology Map
+
+1. **List all actors** — Who is involved? Customers (segments), employees (roles), partners, regulators, competitors, communities
+2. **Map promises and expectations** — What does each actor promise to others? What do they expect in return?
+3. **Identify value flows** — What moves between actors? Money, data, trust, effort, attention, goods, services
+4. **Assess balance** — Is value exchange reciprocal? Where is one actor bearing disproportionate effort or risk?
+5. **Find invisible connections** — Which relationships are undocumented but critical? (e.g., internal service quality affects customer experience)
+6. **Mark tensions** — Where do actors' interests conflict? These tensions are where service breakdowns originate
+
+### From Ecology Map to Blueprint
+
+The ecology map gives you the big picture. The blueprint gives you operational detail. Use them together:
+
+1. **Ecology map** → Understand all stakeholders and their relationships
+2. **Pick a journey** → Select one customer type, one scenario
+3. **Blueprint** → Map how the organization delivers that specific journey
+4. **Cross-reference** → Do the blueprint's backstage dependencies match the ecology's relationships?
+
+---
+
 ## Choosing Between These Diagram Types
 
 | Question | Best Diagram |
