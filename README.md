@@ -51,6 +51,15 @@ Covers the full lifecycle of design systems — from interface inventory and con
 
 `13 files` · `~4,500 lines`
 
+### UX Strategy
+Connect design decisions to business outcomes through competitive analysis, opportunity mapping, Jobs to Be Done, outcome-driven discovery, and UX metrics.
+
+Covers the full strategy process — from framing business context through customer discovery, competitive positioning, value proposition design, hypothesis-driven validation, and outcome measurement. Integrates Opportunity Solution Trees, JTBD job mapping, HEART framework, and Lean UX principles.
+
+**Key references:** Outcomes and continuous discovery (OSTs, product trio, interview cadence), competitive analysis (matrix, value innovation, four actions framework, market positioning), Jobs to Be Done (job mapping, desired outcomes, four forces of switching, JTBD personas), metrics (HEART, North Star, funnel metrics, instrumentation), value proposition design (validation hierarchy, Lean UX loop, MVP strategy, business model alignment).
+
+`13 files` · `~5,500 lines`
+
 ### Design Elevation
 Transform functional visual outputs into polished, professional designs.
 
@@ -128,6 +137,11 @@ These skills synthesize material from established frameworks and standards:
 - **Design Systems** — Functional and perceptual patterns, shared language, pattern lifecycle
 - **W3C Design Tokens Community Group** — Token format specification, type system, alias syntax
 - **Real-world design systems** — Material Design 3, Polaris (Shopify), Carbon (IBM), Spectrum (Adobe), Lightning (Salesforce)
+- **Continuous Discovery Habits** (Teresa Torres) — Opportunity Solution Trees, story-based interviewing, assumption testing, product trio
+- **Jobs to Be Done** (Jim Kalbach) — Job mapping, desired outcomes, switch interviews, four forces, JTBD personas
+- **UX Strategy** (Jaime Levy) — Competitive analysis, value innovation, funnel design, guerrilla research
+- **Lean UX** (Jeff Gothelf & Josh Seiden) — Hypothesis-driven design, outcomes over outputs, MVP strategy, proto-personas
+- **HEART Framework** (Google) — Happiness, Engagement, Adoption, Retention, Task Success metrics
 - **Interaction design principles** — Product posture, perpetual intermediates, excise, orchestration, affordances
 - **Alignment diagram methodology** — Journey maps, service blueprints, experience maps, ecosystem models
 - **Service design principles** — Touchpoints, co-production, service ecology
