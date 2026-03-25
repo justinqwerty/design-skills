@@ -351,6 +351,36 @@ Alignment diagrams pair with other strategic visualizations for broader context:
 
 ---
 
+## Flow Diagrams and Alignment Diagrams: When to Use What
+
+Alignment diagrams (journey maps, blueprints, experience maps) tell the story of user experience — what people do, think, and feel over time. **Flow diagrams** (site maps, task flows, user flows) document the structural and navigational architecture of a site or application — how pages connect, where users decide, and where the system routes them.
+
+These are different tools for different questions:
+
+| Question | Reach For |
+|---|---|
+| "What does the user experience across our service?" | Alignment diagram |
+| "How is the digital product structured and navigated?" | Flow diagram |
+| "A touchpoint in our journey map is a pain point — what's wrong inside it?" | Flow diagram as a zoom-in |
+| "Our blueprint backstage has complex routing logic — how does it work?" | Flow diagram for the decision logic |
+
+### JJG's Visual Vocabulary
+
+Jesse James Garrett's Visual Vocabulary (2000) provides the standard notation for flow diagrams: rectangles for pages, stacked rectangles for page templates, diamonds for decision points (user choices) and conditional selectors (system routing), solid arrows for navigation paths, dashed arrows for conditional paths, and areas for logical groupings. The notation is whiteboard-compatible and tool-independent.
+
+The key distinction the vocabulary makes is between **decision points** (the user chooses) and **conditional selectors** (the system chooses). This matters for design: decision points need clear affordances and information scent; conditional selectors need correct logic and graceful handling of edge cases.
+
+### Common Pairing Patterns
+
+1. **Touchpoint zoom-in** — Journey map identifies a painful digital touchpoint. Create a user flow of that touchpoint to find *where* in the interaction the breakdown occurs
+2. **Blueprint backstage detail** — Blueprint shows a system decision in the backstage lane. Create a flow diagram with conditional selectors to document the full decision logic and all outcomes
+3. **Experience-to-architecture bridge** — Overlay an experience map's phases against a site map's areas. Mismatches reveal where the architecture doesn't match the user's mental model
+4. **Ecosystem flow detail** — Ecosystem model shows a value flow between entities. Create a flow diagram to document the conditional routing and steps within that flow
+
+For the full Visual Vocabulary reference with all symbols, diagram types, and construction process, see `references/flow-diagramming-visual-vocabulary.md`.
+
+---
+
 ## Common Mistakes
 
 | Mistake | Why It Fails | Instead |
@@ -387,6 +417,7 @@ Before finalizing any alignment diagram, verify:
 - `references/service-blueprints.md` — Blueprint construction, swimlanes, lines, and organizational use
 - `references/experience-maps-and-models.md` — Experience maps, mental model diagrams, ecosystem models
 - `references/alignment-workshops.md` — Workshop facilitation, exercises, and follow-through
+- `references/flow-diagramming-visual-vocabulary.md` — JJG's Visual Vocabulary for IA and interaction flow diagrams
 
 ## Templates
 
