@@ -9,20 +9,20 @@ Each skill follows the same architecture: a main `SKILL.md` file that works stan
 ### UX Research
 Plan, conduct, and analyze user research using proven methodologies.
 
-Covers generative, evaluative, and continuous discovery research. Includes interview scripting, usability test planning, participant recruiting, qualitative analysis (affinity diagrams, thematic analysis), and synthesis into personas, journey maps, and opportunity maps.
+Covers generative, evaluative, and continuous discovery research. Includes interview scripting, deep listening for empathy development, usability test planning, participant recruiting, qualitative analysis (affinity diagrams, thematic analysis, behavioral audience segments), and synthesis into personas, journey maps, and opportunity maps.
 
-**Key references:** 20+ research methods catalog, interviewing techniques, usability testing with SUS scoring (full 10-question scale, scoring formula, grade interpretation), workshop facilitation methods (HMW, Creative Matrix, Dot Voting, and 12 more), continuous discovery (Opportunity Solution Trees, assumption testing).
+**Key references:** 20+ research methods catalog (with expanded card sorting: exploratory and statistical analysis, dendrograms, content selection, applying results to IA), interviewing techniques and deep listening, usability testing with SUS scoring (full 10-question scale, scoring formula, grade interpretation), workshop facilitation methods (HMW, Creative Matrix, Dot Voting, and 12 more), continuous discovery (Opportunity Solution Trees, assumption testing).
 
-`14 files` · `3,270 lines`
+`14 files` · `~3,800 lines`
 
 ### Design Critique & Evaluation
-Evaluate UI designs against usability heuristics, UX laws, interaction patterns, and interaction design principles.
+Evaluate UI designs against usability heuristics, UX laws, interaction patterns, interaction design principles, information architecture, and content quality.
 
-Provides a structured 7-step critique framework grounded in Nielsen's 10 heuristics, 27 UX laws organized by design domain, established usability checks, and interaction design principles (product posture, perpetual intermediates, excise audits, orchestration).
+Provides a structured 9-step critique framework grounded in Nielsen's 10 heuristics, 27 UX laws organized by design domain, established usability checks, interaction design principles (product posture, perpetual intermediates, excise audits, orchestration), information architecture evaluation (organization, labeling, navigation, search systems), and UX writing review (usable/useful/responsible lenses, error messages, voice and tone).
 
-**Key references:** 50+ interaction patterns catalog with use/don't-use guidance, heuristics and laws deep reference, visual design principles (hierarchy, typography, color, spacing), interaction design principles.
+**Key references:** 50+ interaction patterns catalog with use/don't-use guidance, heuristics and laws deep reference, visual design principles (hierarchy, typography, color, spacing), interaction design principles, IA evaluation (four systems, labeling critique, quick diagnostic), content and UX writing evaluation.
 
-`10 files` · `2,384 lines`
+`10 files` · `~3,100 lines`
 
 ### Accessibility Audit
 Conduct accessibility audits against WCAG 2.2 guidelines.
@@ -36,11 +36,11 @@ A 5-layer audit process (automated, keyboard, screen reader, visual, flow) cover
 ### Journey Mapping
 Create customer journey maps, service blueprints, experience maps, empathy maps, and other alignment diagrams.
 
-Guides diagram type selection across 7 diagram types, content structure, illustration syntax, and alignment workshops. Grounded in established alignment diagram methodology and Polaine, Løvlie & Reason's service design framework.
+Guides diagram type selection across 7 diagram types, content structure, illustration syntax, alignment workshops, and strategic use of diagrams. Grounded in established alignment diagram methodology, Polaine, Løvlie & Reason's service design framework, and Kalbach's mapping methodology.
 
-**Key references:** Customer journey maps (8 required + 7 optional elements), service blueprints (5 swimlanes, 3 lines, blueprint slices, SERVQUAL/RATER measurement), experience types (transactional/continuous/transformational), service ecology mapping, experience prototyping (3 fidelity levels), expectation gap analysis, time as a design object, experience maps and mental models, alignment workshop facilitation (half-day and full-day formats).
+**Key references:** Customer journey maps (8 required + 7 optional elements), service blueprints (5 swimlanes, 3 lines, blueprint slices, SERVQUAL/RATER measurement), experience types (transactional/continuous/transformational), service ecology mapping, user story maps (backbone, vertical slicing, walking skeleton), experience prototyping (3 fidelity levels), expectation gap analysis, time as a design object, experience maps and mental models, strategic diagram use (five value types, employee experience alignment, current vs. future state mapping), alignment workshop facilitation (half-day, full-day, and strategic extension formats).
 
-`10 files` · `2,700+ lines`
+`10 files` · `~3,400 lines`
 
 ### Design Systems
 Build, document, and maintain design systems with design tokens, component specifications, pattern libraries, naming conventions, and governance processes.
@@ -54,29 +54,29 @@ Covers the full lifecycle of design systems — from interface inventory and con
 ### UX Strategy
 Connect design decisions to business outcomes through competitive analysis, opportunity mapping, Jobs to Be Done, outcome-driven discovery, and UX metrics.
 
-Covers the full strategy process — from framing business context through customer discovery, competitive positioning, value proposition design, hypothesis-driven validation, and outcome measurement. Integrates Opportunity Solution Trees, JTBD job mapping, HEART framework, and Lean UX principles.
+Covers the full strategy process — from framing business context through customer discovery, competitive positioning, value proposition design, hypothesis-driven validation, outcome measurement, and ethical responsibility. Integrates Opportunity Solution Trees, JTBD job mapping, HEART framework, Lean UX principles, and Papanek's design responsibility framework.
 
-**Key references:** Outcomes and continuous discovery (OSTs, product trio, interview cadence), competitive analysis (matrix, value innovation, four actions framework, market positioning, competitive briefs), Jobs to Be Done (job mapping, desired outcomes, four forces of switching, JTBD personas), metrics (HEART, North Star, funnel metrics, instrumentation), value proposition design (validation hierarchy, Lean UX loop, MVP strategy, business model alignment).
+**Key references:** Outcomes and continuous discovery (OSTs, product trio, interview cadence), competitive analysis (matrix, value innovation, four actions framework, market positioning, competitive briefs), Jobs to Be Done (job mapping, desired outcomes, four forces of switching, JTBD personas), metrics (HEART, North Star, funnel metrics, instrumentation), value proposition design (validation hierarchy, Lean UX loop, MVP strategy, business model alignment), ethical and responsible strategy (harm/access/sustainability checks, shared value creation, designing for underserved populations, ethical assumption testing).
 
-`14 files` · `~5,500 lines`
+`14 files` · `~6,000 lines`
 
 ### Interaction Design
 Design microinteractions, product behavior, state machines, motion, and error prevention for digital products.
 
-Covers the full interaction design process — from microinteraction specification (trigger → rules → feedback → loops/modes) through product posture analysis, state inventory audits, excise elimination, motion design, and error prevention hierarchies. Grounded in Cooper's About Face methodology and Saffer's microinteraction framework.
+Covers the full interaction design process — from microinteraction specification (trigger → rules → feedback → loops/modes) through product posture analysis, narrative structure (storymapping), state inventory audits, excise elimination, motion design, and error prevention hierarchies. Grounded in Cooper's About Face methodology, Saffer's microinteraction framework, and Lichaw's narrative arc approach.
 
-**Key references:** Microinteraction four-part framework (triggers, rules, feedback, loops/modes), product postures (sovereign/transient/daemonic), perpetual intermediates, orchestration and flow, excise types (navigational/modal/cognitive/physical), state design (12 states per element), motion principles (Disney-adapted for UI, timing/easing guidelines), error prevention hierarchy (6 levels), undo patterns, loading patterns, recovery flows.
+**Key references:** Microinteraction four-part framework (triggers, rules, feedback, loops/modes), product postures (sovereign/transient/daemonic), perpetual intermediates, narrative structure in product design (three story types, storymapping, peak-end rule), orchestration and flow, excise types (navigational/modal/cognitive/physical), state design (12 states per element), motion principles (Disney-adapted for UI, timing/easing guidelines), error prevention hierarchy (6 levels), undo patterns, loading patterns, recovery flows.
 
-`12 files` · `~5,000 lines`
+`12 files` · `~5,500 lines`
 
 ### Design Ops & Handoff
 Run design sprints, manage design-to-development handoff, establish team rituals, documentation standards, and design QA processes.
 
-Covers the operational side of design — how teams organize work, collaborate with engineering, and ship quality. From 5-day design sprints through handoff specs, critique facilitation, documentation standards, and visual QA processes. Grounded in Knapp's Sprint methodology and real-world design ops practice.
+Covers the operational side of design — how teams organize work, collaborate with engineering, and ship quality. From 5-day design sprints through handoff specs, critique facilitation, documentation standards, visual QA processes, and scaled-down methods for lean teams. Grounded in Knapp's Sprint methodology, Buley's UX team-of-one framework, and real-world design ops practice.
 
-**Key references:** Design sprints (5-day structure, team roles, remote/mini variations, post-sprint actions), handoff process (maturity levels, complete handoff checklist, annotation standards, spec formats, conflict resolution), team rituals (critique, design-eng sync, design review, retro, cadence planning), documentation standards (file organization, naming conventions, versioning, decision records), design QA (detailed checklist, severity scale, issue filing, acceptance criteria, automated visual regression).
+**Key references:** Design sprints (5-day structure, team roles, remote/mini variations, post-sprint actions), handoff process (maturity levels, complete handoff checklist, annotation standards, spec formats, conflict resolution), team rituals (critique, design-eng sync, design review, retro, cadence planning), documentation standards (file organization, naming conventions, versioning, decision records), design QA (detailed checklist, severity scale, issue filing, acceptance criteria, automated visual regression), scaled-down operations (guerrilla methods, adapted rituals for solo designers, UX advocacy, small wins strategy).
 
-`12 files` · `~5,500 lines`
+`12 files` · `~6,000 lines`
 
 ### Design Elevation
 Transform functional visual outputs into polished, professional designs.
@@ -153,18 +153,27 @@ These skills synthesize material from established books, frameworks, and standar
 - **About Face** (Alan Cooper) — Product postures, perpetual intermediates, excise elimination, orchestration, considerate software, goal-directed design
 - **Atomic Design** (Brad Frost) — Five-level component hierarchy, pattern lab, interface inventories
 - **Blue Ocean Strategy** (W. Chan Kim & Renée Mauborgne) — Value innovation, four actions framework, strategy canvas
+- **Card Sorting** (Donna Spencer) — Open/closed/hybrid sorts, exploratory and statistical analysis, dendrograms, applying results to IA
 - **Continuous Discovery Habits** (Teresa Torres) — Opportunity Solution Trees, story-based interviewing, assumption testing, product trio
+- **Design for the Real World** (Victor Papanek) — Ethical responsibility, shared value creation, designing for underserved populations
 - **Design Systems** (Alla Kholmatova) — Functional and perceptual patterns, shared language, pattern lifecycle
 - **Don't Make Me Think** (Steve Krug) — Usability testing, self-evident design, trunk test
+- **Information Architecture** (Rosenfeld, Morville & Arango) — Organization, labeling, navigation, and search systems, IA evaluation
 - **Jobs to Be Done** (Jim Kalbach) — Job mapping, desired outcomes, switch interviews, four forces, JTBD personas
 - **Lean UX** (Jeff Gothelf & Josh Seiden) — Hypothesis-driven design, outcomes over outputs, MVP strategy, proto-personas
+- **Mapping Experiences** (Jim Kalbach) — Strategic use of alignment diagrams, five value types, current vs. future state mapping, workshop facilitation
 - **Microinteractions** (Dan Saffer) — Four-part framework (trigger/rules/feedback/loops), signature moments, long wow lifecycle
 - **Modular Web Design** (Nathan Curtis) — Design system governance, contribution models, adoption strategies
 - **Outcome-Driven Innovation** (Tony Ulwick) — Desired outcome statements, importance-satisfaction framework, opportunity scoring
+- **Practical Empathy** (Indi Young) — Deep listening, cognitive empathy, behavioral audience segments, guiding principles
 - **Service Design** (Andrew Polaine, Lavrans Løvlie, Ben Reason) — Service ecologies, blueprints, experience types, SERVQUAL/RATER, experience prototyping, co-production
 - **Sprint** (Jake Knapp, John Zeratsky, Braden Kowitz) — 5-day design sprint methodology, team roles, prototyping, user testing with 5 participants
 - **The Innovator's Dilemma** (Clayton Christensen) — Disruptive innovation theory, jobs-to-be-done origin
+- **The User Experience Team of One** (Leah Buley) — Guerrilla methods, UX advocacy, scaled-down operations for lean teams
+- **The User's Journey** (Donna Lichaw) — Narrative arc, storymapping, concept/origin/usage stories, peak-end design
+- **User Story Mapping** (Jeff Patton) — Backbone, walking skeleton, vertical slicing, release planning
 - **UX Strategy** (Jaime Levy) — Competitive analysis, value innovation, funnel design, guerrilla research
+- **Writing Is Designing** (Michael J. Metts & Andy Welfle) — UX writing as design, usable/useful/responsible lenses, voice and tone, content critique
 
 ### Frameworks & Methodologies
 

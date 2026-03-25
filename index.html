@@ -13,8 +13,8 @@
       --bg: #FAFAFA;
       --fg: #0A0A0A;
       --red: #E53935;
-      --gray-medium: #6B6B6B;
-      --gray-light: #B0B0B0;
+      --gray-medium: #595959;
+      --gray-light: #767676;
       --gray-rule: #D4D4D4;
       --code-bg: #0A0A0A;
       --code-fg: #D4D4D4;
@@ -30,7 +30,7 @@
         --fg: #E8E8E8;
         --red: #EF5350;
         --gray-medium: #9E9E9E;
-        --gray-light: #616161;
+        --gray-light: #8A8A8A;
         --gray-rule: #2A2A2A;
         --code-bg: #141414;
         --code-fg: #D4D4D4;
@@ -140,6 +140,7 @@
       padding-bottom: calc(var(--unit) * 2);
       border-bottom: var(--rule-heavy);
     }
+    h2.section-label { margin-top: 0; }
 
     .skill-row {
       display: grid;
@@ -330,12 +331,37 @@
       background: var(--red);
       margin-bottom: calc(var(--unit) * 3);
     }
+
+    /* --- Skip link --- */
+    .skip-link {
+      position: absolute;
+      top: -100%;
+      left: 16px;
+      background: var(--fg);
+      color: var(--bg);
+      padding: 8px 16px;
+      font-size: 0.875rem;
+      z-index: 100;
+      text-decoration: none;
+    }
+    .skip-link:focus {
+      top: 16px;
+    }
+
+    /* --- Focus styles --- */
+    a:focus-visible,
+    button:focus-visible {
+      outline: 2px solid var(--red);
+      outline-offset: 2px;
+    }
   </style>
 </head>
 <body>
 
+  <a href="#main" class="skip-link">Skip to content</a>
+
   <!-- Hero -->
-  <section class="hero">
+  <header class="hero">
     <div class="container">
       <span class="hero-label">Open Source</span>
       <h1>Design Skills for <span style="color:var(--red)">Claude&nbsp;Code</span></h1>
@@ -344,29 +370,31 @@
       <div class="hero-meta">
         <div><strong>9</strong> skills</div>
         <div><strong>102</strong> files</div>
-        <div><strong>34,300+</strong> lines</div>
+        <div><strong>37,500+</strong> lines</div>
       </div>
     </div>
-  </section>
+  </header>
+
+  <main id="main">
 
   <!-- Skills -->
   <section class="skills-section">
     <div class="container">
-      <div class="section-label">Skills</div>
+      <h2 class="section-label">Skills</h2>
 
       <div class="skill-row">
         <h3>UX Research</h3>
         <div class="skill-body">
-          <p>From interview scripts to usability tests to workshop facilitation. Includes a catalog of 20+ methods, SUS scoring with the full 10-question scale, and Opportunity Solution Trees for continuous discovery.</p>
-          <span class="skill-meta">14 files · 3,270 lines</span>
+          <p>From interview scripts and deep listening to usability tests and workshop facilitation. Includes 20+ methods with expanded card sorting analysis, SUS scoring, behavioral audience segments, and Opportunity Solution Trees for continuous discovery.</p>
+          <span class="skill-meta">14 files · ~3,800 lines</span>
         </div>
       </div>
 
       <div class="skill-row">
         <h3>Design Critique &amp; Evaluation</h3>
         <div class="skill-body">
-          <p>A 7-step critique framework that uses Nielsen's heuristics, 27 UX laws, and 50+ interaction patterns to give feedback that's specific, not subjective. Includes severity scales and scoring rubrics.</p>
-          <span class="skill-meta">10 files · 2,384 lines</span>
+          <p>A 9-step critique framework covering Nielsen's heuristics, 27 UX laws, 50+ interaction patterns, information architecture evaluation, and UX writing review. Specific, not subjective.</p>
+          <span class="skill-meta">10 files · ~3,100 lines</span>
         </div>
       </div>
 
@@ -381,8 +409,8 @@
       <div class="skill-row">
         <h3>Journey Mapping</h3>
         <div class="skill-body">
-          <p>Seven diagram types — journey maps, service blueprints, experience maps, empathy maps, and more. Covers service ecology, experience prototyping, and the SERVQUAL measurement framework.</p>
-          <span class="skill-meta">10 files · 2,700+ lines</span>
+          <p>Seven diagram types — journey maps, service blueprints, experience maps, empathy maps, user story maps, and more. Covers service ecology, strategic diagram use, current vs. future state mapping, and alignment workshops.</p>
+          <span class="skill-meta">10 files · ~3,400 lines</span>
         </div>
       </div>
 
@@ -397,24 +425,24 @@
       <div class="skill-row">
         <h3>UX Strategy</h3>
         <div class="skill-body">
-          <p>Where design meets business. Opportunity Solution Trees, Jobs to Be Done mapping, competitive analysis with the four actions framework, competitive briefs, HEART metrics, and hypothesis-driven validation.</p>
-          <span class="skill-meta">14 files · ~5,500 lines</span>
+          <p>Where design meets business — and responsibility. Opportunity Solution Trees, Jobs to Be Done, competitive analysis, HEART metrics, hypothesis-driven validation, and ethical strategy with shared value creation.</p>
+          <span class="skill-meta">14 files · ~6,000 lines</span>
         </div>
       </div>
 
       <div class="skill-row">
         <h3>Interaction Design</h3>
         <div class="skill-body">
-          <p>How things should behave, not just how they look. Microinteraction specs, state machines, product postures, motion timing, and a 6-level error prevention hierarchy. Based on Cooper and Saffer.</p>
-          <span class="skill-meta">12 files · ~5,000 lines</span>
+          <p>How things should behave, not just how they look. Microinteraction specs, narrative arc and storymapping, state machines, product postures, motion timing, and a 6-level error prevention hierarchy.</p>
+          <span class="skill-meta">12 files · ~5,500 lines</span>
         </div>
       </div>
 
       <div class="skill-row">
         <h3>Design Ops &amp; Handoff</h3>
         <div class="skill-body">
-          <p>The operational side of design work. Five-day design sprints, handoff checklists that actually prevent "it's in Figma" handoffs, critique facilitation, documentation standards, and visual QA.</p>
-          <span class="skill-meta">12 files · ~5,500 lines</span>
+          <p>The operational side of design work. Five-day design sprints, handoff checklists, critique facilitation, documentation standards, visual QA, and scaled-down methods for solo designers and lean teams.</p>
+          <span class="skill-meta">12 files · ~6,000 lines</span>
         </div>
       </div>
 
@@ -432,7 +460,7 @@
   <!-- Install -->
   <section class="install-section">
     <div class="container">
-      <div class="section-label">Installation</div>
+      <h2 class="section-label">Installation</h2>
       <div class="install-grid">
         <div class="install-block">
           <h3>All skills</h3>
@@ -455,7 +483,7 @@ cp -r design-skills/design-critique \
   <!-- Architecture -->
   <section class="arch-section">
     <div class="container">
-      <div class="section-label">How skills are structured</div>
+      <h2 class="section-label">How skills are structured</h2>
       <div class="arch-grid">
         <div class="arch-tree">
           <pre>skill-name/
@@ -490,7 +518,7 @@ cp -r design-skills/design-critique \
           </li>
           <li>
             <strong>Real sources</strong>
-            <span>15 books, 11 frameworks, 6 standards. Nothing made up</span>
+            <span>24 books, 11 frameworks, 6 standards. Nothing made up</span>
           </li>
         </ul>
       </div>
@@ -500,7 +528,7 @@ cp -r design-skills/design-critique \
   <!-- Sources -->
   <section class="sources-section">
     <div class="container">
-      <div class="section-label">Sources</div>
+      <h2 class="section-label">Sources</h2>
       <div class="sources-columns">
         <div>
           <h3>Books</h3>
@@ -508,18 +536,27 @@ cp -r design-skills/design-critique \
             <li>About Face — Alan Cooper</li>
             <li>Atomic Design — Brad Frost</li>
             <li>Blue Ocean Strategy — Kim &amp; Mauborgne</li>
+            <li>Card Sorting — Donna Spencer</li>
             <li>Continuous Discovery Habits — Teresa Torres</li>
+            <li>Design for the Real World — Victor Papanek</li>
             <li>Design Systems — Alla Kholmatova</li>
             <li>Don't Make Me Think — Steve Krug</li>
+            <li>Information Architecture — Rosenfeld, Morville &amp; Arango</li>
             <li>Jobs to Be Done — Jim Kalbach</li>
             <li>Lean UX — Gothelf &amp; Seiden</li>
+            <li>Mapping Experiences — Jim Kalbach</li>
             <li>Microinteractions — Dan Saffer</li>
             <li>Modular Web Design — Nathan Curtis</li>
             <li>Outcome-Driven Innovation — Tony Ulwick</li>
+            <li>Practical Empathy — Indi Young</li>
             <li>Service Design — Polaine, Løvlie &amp; Reason</li>
             <li>Sprint — Knapp, Zeratsky &amp; Kowitz</li>
             <li>The Innovator's Dilemma — Clayton Christensen</li>
+            <li>The User Experience Team of One — Leah Buley</li>
+            <li>The User's Journey — Donna Lichaw</li>
+            <li>User Story Mapping — Jeff Patton</li>
             <li>UX Strategy — Jaime Levy</li>
+            <li>Writing Is Designing — Metts &amp; Welfle</li>
           </ul>
         </div>
         <div>
@@ -546,10 +583,12 @@ cp -r design-skills/design-critique \
     </div>
   </section>
 
+  </main>
+
   <!-- Footer -->
   <footer>
     <div class="container">
-      Made with <span style="color:var(--red)">♥</span> by <a href="https://cuellar.fr">Carlos</a> · MIT License · <a href="https://github.com/cuellarfr/design-skills">GitHub</a>
+      Made with <span style="color:var(--red)" aria-hidden="true">♥</span> by <a href="https://cuellar.fr">Carlos</a> · MIT License · <a href="https://github.com/cuellarfr/design-skills">GitHub</a>
     </div>
   </footer>
 
