@@ -192,6 +192,47 @@ A mental model diagram represents the user's cognitive space — how they think 
 - Where your product diverges from the mental model → either adapt the design or plan for learning
 - Where the mental model has no coverage → opportunity for new features
 
+## Behavioral Audience Segments
+
+Behavioral segments group people by how they *think* about a domain — not by demographics. Two people with the same job title, age, and industry may reason completely differently about the same activity. Behavioral segments surface these differences and give design teams a foundation for supporting distinct intents.
+
+### How They Differ from Personas
+
+| Aspect | Persona | Behavioral Segment |
+|---|---|---|
+| **Based on** | Demographics + goals + behaviors | Reasoning, reactions, guiding principles |
+| **Source data** | Interviews, surveys, analytics | Deep listening sessions, empathy data |
+| **Scope** | Product-specific | Broader than any single product |
+| **Primary use** | Design decisions, user stories | Strategy, direction, conceptual basis |
+| **Typical count** | 3-5 | 2-8 (emerges from data) |
+
+### Building Behavioral Segments
+
+1. **Develop empathy first** — Conduct deep listening sessions with 10-30 people. Focus on their reasoning, emotional reactions, and guiding principles about a purpose broader than your product
+2. **Pick out concepts** — From each session, extract reasoning, reactions, and guiding principles. Write summaries starting with a verb
+3. **Look for patterns across people** — Group similar reasoning patterns. Let segments emerge bottom-up from the data, not from predefined categories
+4. **Name each segment by intent** — The name should describe how this group thinks, not who they are. "Cautious evaluators who need proof before committing" not "Enterprise buyers"
+5. **Validate boundaries** — Each segment should have distinct guiding principles. If two segments reason the same way, merge them
+
+### Using Behavioral Segments
+
+- **Inspire direction** — Segments reveal which types of reasoning your product supports well and which it ignores. This shapes strategy, not just features
+- **Expand angles** — Instead of jumping to the obvious solution, segments help you see the problem from multiple reasoning styles
+- **Customize support** — Different segments may need different flows, messaging, or onboarding paths — not because of who they are, but because of how they think
+- **Complement personas** — Use behavioral segments for strategic direction; use personas for tactical design decisions. They work together
+
+### Segments vs. Personas: When to Use Which
+
+| Situation | Use |
+|---|---|
+| Defining product strategy and direction | Behavioral segments |
+| Writing user stories and designing flows | Personas |
+| Understanding *why* users behave differently | Behavioral segments |
+| Communicating user needs to stakeholders | Personas (easier to share) |
+| Both available | Use segments to inform persona creation |
+
+---
+
 ## Journey Map Synthesis
 
 ### When to Create Journey Maps

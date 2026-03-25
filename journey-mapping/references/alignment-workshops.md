@@ -192,6 +192,36 @@ Alignment doesn't stop with the diagram. To keep the momentum:
 
 ---
 
+## From Workshop to Strategy
+
+Alignment workshops typically focus on identifying pain points and generating solutions. But diagrams can also serve a strategic function — helping organizations see the broader landscape of value they create and where they can innovate.
+
+### Strategic Workshop Extension (Add 60-90 min)
+
+Add this after the standard workshop activities when the team needs to connect experience insights to business direction:
+
+| Time | Activity | Purpose |
+|---|---|---|
+| 0:00 | **Competitive overlay** (20 min) | On the diagram, annotate where competitors serve the user better. Where are they absent? Where do they excel? Identify white space |
+| 0:20 | **Value type analysis** (20 min) | For each phase, ask: what type of value does the user seek here? (Functional, emotional, social, epistemic, identity.) Where are we only delivering functional value when users want emotional or social? |
+| 0:40 | **Jobs to Be Done reframing** (20 min) | For each phase, articulate the job: "When I [situation], I want to [motivation], so I can [outcome]." This reframes the experience around user intent, not product features |
+| 1:00 | **Strategic opportunities** (20 min) | From the competitive overlay + value analysis + JTBD: where can we create new value? Where should we double down? Where should we stop investing? |
+
+### Overcoming Barriers to Getting Started
+
+Organizations often resist mapping efforts. Common objections and responses:
+
+| Objection | Response |
+|---|---|
+| "We already know our customers" | "Let's test that — we'll draft a map from assumptions and mark where we're guessing. That alone will be valuable" |
+| "We don't have time for research" | "Even 5 interviews + an analytics review produces a credible map. We can start small" |
+| "This isn't a priority right now" | "Which pain point is costing us the most support tickets / churn / rework? Let's map just that one journey" |
+| "We tried journey mapping before and nothing happened" | "The map is a means to an end. This time we'll schedule the workshop before we finish the diagram, and assign owners before we leave the room" |
+
+**Find a champion.** Identify one stakeholder who is already frustrated with cross-functional misalignment. Pilot a small mapping effort with them. Demonstrating firsthand results goes further than any presentation about methodology.
+
+---
+
 ## Workshop Anti-Patterns
 
 | Anti-Pattern | What Happens | Prevention |

@@ -242,6 +242,74 @@ Track these to measure design ops health:
 
 ---
 
+## Scaled-Down Operations for Lean Teams
+
+The processes above assume a dedicated design team. But many organizations have a single designer — or someone who does design as part of a broader role. The principles still apply; the execution scales down. This section provides adapted methods for resource-constrained teams, drawing on Leah Buley's UX team-of-one framework.
+
+### The Core Mindset
+
+1. **Focus on small wins.** You can't transform the organization overnight. Pick one visible improvement, deliver it, and let the result build momentum for the next
+2. **Build a user-centered culture, not a UX department.** Your goal isn't to own all design work — it's to make everyone on the team think about users
+3. **Develop a growth mindset.** Seek opportunities to expand skills incrementally. You don't need permission to start practicing research or testing
+
+### Guerrilla Methods
+
+When you don't have budget, time, or formal research infrastructure:
+
+| Full Process | Guerrilla Alternative | When It's Enough |
+|---|---|---|
+| Formal usability study (lab, recruiting, 5+ participants) | Hallway testing with 3 people for 15 minutes | Early concepts, internal tools, low-stakes features |
+| Multi-week discovery research | 3 customer interviews in one week + support ticket review | You need directional insight, not statistical confidence |
+| Design sprint (5 full days) | Mini-sprint: 2-day version (map + sketch on day 1, prototype + test on day 2) | Smaller problems, aligned team, good prior research |
+| Full journey mapping workshop | Assumption map on a whiteboard (30 min with the team, mark what you know vs. guess) | When you need alignment more than research |
+| Formal design critique (weekly, all designers) | Async critique in Figma comments with one engineer and one PM | Solo designer, no design peers available |
+| Design system with governance | Component inventory + shared Figma library with naming conventions | Small product, 1-3 engineers |
+
+### Building Relationships and Advocacy
+
+As a solo or lean-team designer, your effectiveness depends on relationships more than process.
+
+**Earn a seat at the table:**
+- Start by meeting the team's immediate needs — even grunt work builds goodwill
+- Show, don't tell. A quick prototype that surfaces a problem is worth more than a presentation about UX maturity
+- Connect UX work to metrics leadership already cares about (conversion, support tickets, retention)
+
+**Influence without authority:**
+- Frame recommendations as experiments, not mandates: "Can we test this with 3 users before committing?"
+- Share research findings in the format your audience consumes — Slack summary for engineers, dashboard for leadership, annotated screenshots for PMs
+- Present findings with confidence but invite collaboration: "Here's what we learned — what does this mean for your area?"
+
+### Adapted Rituals for Solo/Lean Teams
+
+| Full Ritual | Lean Alternative | Cadence |
+|---|---|---|
+| Weekly design critique | Bi-weekly "design lunch" — show WIP to anyone interested, even non-designers | Every 2 weeks |
+| Design-eng sync | 15-minute standup addition: "Here's what's coming in design this sprint" | Per sprint |
+| Formal design review | Share a 1-page decision doc with the PM before a milestone. Async approval | Per milestone |
+| Design QA sprint | QA checklist in the PR template — designer reviews before merge | Per story |
+| Retro | Add one design-specific question to the team retro: "Where did design and implementation diverge?" | Per sprint |
+
+### Scaled-Down Handoff
+
+When full specs aren't practical:
+
+1. **Annotate in-context.** Add behavior notes directly on Figma frames — don't create a separate spec document
+2. **Prioritize what's ambiguous.** Don't spec obvious things. Focus on states, transitions, and edge cases that engineers would have to guess
+3. **Walk through once, document questions.** A 15-minute walkthrough call + a list of engineer questions answered in Figma comments is often enough
+4. **Build shared vocabulary early.** If you and the engineer agree on component names and token usage, you need fewer words in every handoff
+
+### The Power of Small Wins
+
+Track and communicate your impact, even informally:
+
+- "We tested the new flow with 3 users — 2 couldn't find the save button. We moved it, and support tickets for that flow dropped 40%"
+- "The assumption map revealed we had no data on how users think about billing. Two interviews later, we redesigned the billing page before engineering started"
+- "Adding a design QA step to PRs caught 12 visual bugs this quarter that would have shipped"
+
+Small wins compound. Each one makes the next conversation about investing in design easier.
+
+---
+
 ## Common Mistakes
 
 | Mistake | Why It Fails | Better Approach |

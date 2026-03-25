@@ -5,7 +5,7 @@ description: Design meaningful interactions, microinteractions, animations, stat
 
 # Interaction Design
 
-You are an expert in interaction design — the discipline that defines how products behave in response to human input. Your recommendations are grounded in Dan Saffer's Microinteractions (trigger-rules-feedback-loops framework), Alan Cooper's About Face (product posture, perpetual intermediates, orchestration, excise), the 12 Principles of Animation adapted for UI, David Harel's statecharts for UI state modeling, and motion guidelines from Material Design 3 and Apple HIG.
+You are an expert in interaction design — the discipline that defines how products behave in response to human input. Your recommendations are grounded in Dan Saffer's Microinteractions (trigger-rules-feedback-loops framework), Alan Cooper's About Face (product posture, perpetual intermediates, orchestration, excise), Donna Lichaw's The User's Journey (narrative arc, storymapping, peak-end design), the 12 Principles of Animation adapted for UI, David Harel's statecharts for UI state modeling, and motion guidelines from Material Design 3 and Apple HIG.
 
 *Interaction design is the design of behavior. A product's visual appearance is what users see; its interaction design is what they experience. The gap between a product people tolerate and one they love is almost always in the quality of its interactions.*
 
@@ -122,6 +122,89 @@ When interaction is well-designed, users enter a state of **flow** — focused, 
 5. **Provide modeless feedback** — Status information that doesn't interrupt. Progress indicators in the UI, not in a dialog
 6. **Design for the probable, anticipate the possible** — Optimize the common path. Handle edge cases gracefully
 7. **Avoid blank slates** — Empty states should guide, not stare blankly
+
+---
+
+## Narrative Structure in Product Design
+
+Microinteractions define how individual moments behave. Narrative structure defines how those moments *compose* into an engaging experience. Products that people love don't just work well — they tell a story where the user is the hero. This framework, drawn from Donna Lichaw's storymapping approach, applies the same narrative arc used by screenwriters to the design of product flows.
+
+### The Narrative Arc Applied to Products
+
+Every story — and every product experience — follows the same arc:
+
+| Plot Point | In Story | In Product | Design Question |
+|---|---|---|---|
+| **Exposition** | Introduces the world and characters | User arrives and orients | Is it immediately clear what this is and what I can do? |
+| **Inciting incident** | Something disrupts the status quo | User encounters their task/goal | Does the product acknowledge the user's problem or need? |
+| **Rising action** | Character takes steps, tension builds | User works through the flow | Does each step feel like progress? Does engagement build? |
+| **Crisis** | Greatest obstacle, highest tension | User hits friction, doubt, or complexity | Is this friction intentional? Can the user overcome it? |
+| **Climax** | Turning point, peak emotion | The payoff — the "aha!" or accomplishment | Is there a peak positive moment the user will remember? |
+| **Falling action** | Things wind down | Confirmation, sharing, next steps | Does the product celebrate success and suggest what's next? |
+| **End** | The new normal | User leaves with an impression | Is the ending designed deliberately? |
+
+**The user is always the hero.** Your product is the tool that helps the hero achieve their goal — not the protagonist of the story.
+
+### Three Types of Product Stories
+
+| Story Type | What It Maps | Scale | Key Question |
+|---|---|---|---|
+| **Concept story** | The big picture — what this product is and why it matters | Product-level | "What is the story of this product?" |
+| **Origin story** | How someone becomes a user for the first time | Acquisition + onboarding | "What's the story of a user's first experience?" |
+| **Usage story** | How someone uses the product for a specific task | Single session or flow | "What's the story of using this feature?" |
+
+#### Concept Story
+The foundational narrative that communicates your core value proposition. Maps the product's reason for being onto the narrative arc.
+
+- **Exposition:** Who is this for? What's their world like?
+- **Inciting incident:** What problem disrupts their status quo?
+- **Rising action:** What approaches have they tried?
+- **Climax:** How does this product solve it in a way that surprises or delights?
+- **End:** What does the user's world look like now?
+
+A concept story without a climax is anticlimactic — "just another X." Find what makes your product surprising, delightful, or transformative.
+
+#### Origin Story
+The journey from awareness to first meaningful use. Bridges marketing and product design.
+
+Key touchpoints to design as plot points: marketing materials → landing page → sign-up flow → onboarding → first meaningful interaction. Each should build on the last. The crisis is often "Another thing to sign up for?" — design the climax to answer it with immediate demonstrated value.
+
+#### Usage Story
+A single task or session mapped as a narrative arc. This is where storymapping connects most directly to interaction design.
+
+- Map the moment-by-moment experience of completing a task
+- Identify where the peak positive moment should be — the "boom"
+- Design the ending deliberately — the peak-end rule means users judge the entire experience by its best moment and its ending
+
+### Storymapping Process
+
+1. **Define the story** — Who is the hero? What is their goal? Which story type are you mapping?
+2. **Plot the arc** — Use sticky notes on a wall or a spreadsheet. One note per plot point. Map left to right chronologically
+3. **Test the arc** — Read it aloud. Does it build? Is there real tension? Is the climax satisfying? If any plot point is weak, the whole story suffers
+4. **Map to screens/interactions** — Each plot point becomes a screen, a state, or a key interaction moment
+5. **Design the crisis deliberately** — Don't eliminate all friction. Some friction creates engagement. The satisfaction of overcoming the crisis is what makes the climax meaningful
+6. **Design the climax** — This is the moment users will remember. Invest disproportionate design effort here
+7. **Design the ending** — Confirmation, celebration, sharing, or a bridge to the next story
+
+### Applying the Peak-End Rule
+
+Research on how humans evaluate experiences (Kahneman) shows they judge by two moments: the **peak** (highest emotional intensity) and the **end** (final impression). The total duration and the average quality matter far less.
+
+**Design implications:**
+- **Identify your peak** — Every flow should have one moment designed to be the emotional high point
+- **Invest in endings** — A weak ending undermines an otherwise good experience. Success states, confirmation screens, and "what's next" moments deserve as much design attention as the core workflow
+- **Acceptable friction** — If the peak and ending are strong, users will tolerate friction along the way. Don't over-optimize the middle at the expense of the climax
+- **Measure peaks and endings** — In usability testing, ask: "What stands out?" and "How did it end?" These reveal the remembered experience
+
+### When to Use Storymapping
+
+| Situation | Story Type to Map |
+|---|---|
+| Designing a new product or major feature | Concept story first, then origin story |
+| Improving onboarding or activation | Origin story |
+| Designing or improving a specific flow | Usage story |
+| Diagnosing why users aren't engaged | All three — find which story is broken |
+| Pitching a product vision to stakeholders | Concept story as the narrative backbone |
 
 ---
 

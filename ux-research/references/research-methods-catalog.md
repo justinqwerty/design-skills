@@ -183,27 +183,93 @@ See `references/interviewing-guide.md` for the complete technique.
 > Understanding how users categorize and organize information
 
 **Best for:** Information architecture, navigation structure, labeling
-**Participants:** 15-20 for statistical patterns
 **Time:** 30-45 minutes per session
 
 **Types:**
-- **Open sort:** Participants create their own categories (generative)
-- **Closed sort:** Participants sort into predefined categories (evaluative)
-- **Hybrid:** Some predefined categories, participants can create new ones
 
-**Process:**
-1. Write each content item on a separate card (30-60 cards typical)
-2. Ask participants to group cards that belong together
-3. For open sorts: ask them to name each group
-4. For closed sorts: provide category labels
-5. Record the groupings
-6. Analyze using similarity matrices or dendrograms
+| Type | What Participants Do | What You Learn | When to Use |
+|---|---|---|---|
+| **Open sort** | Create their own groups and name them | How users naturally categorize; what labels they use | Early exploration, new IA, understanding mental models |
+| **Closed sort** | Sort cards into your predefined categories | Whether your categories work for users | Validating a draft IA, adding content to existing structure |
+| **Hybrid** | Sort into predefined categories but can create new ones | Whether your categories cover the space | Refining an IA that's partially validated |
 
-**Analysis:**
-- Create a similarity matrix showing how frequently items were grouped together
-- Items grouped together by 70%+ of participants → strong association
-- Items grouped together by 30-70% → moderate association, may need investigation
-- Items inconsistently categorized → flag as ambiguous, consider alternative placements
+**Important:** A closed sort tests *classification*, not *findability*. If users can sort "Account settings" into "Profile," it doesn't mean they'll navigate there. Use tree testing or task-based testing to validate findability.
+
+**Participants:**
+- **Exploratory analysis (patterns and themes):** 8-10 participants is often sufficient
+- **Statistical analysis (dendrograms, clusters):** 15-30+ for meaningful statistical patterns
+- **Team sorts (collaborative, generative):** 3-5 groups of 2-3 people — good for hearing reasoning, not for statistics
+
+#### Choosing Content
+
+Poorly chosen content is the most common reason card sorts fail.
+
+| Principle | Right | Wrong |
+|---|---|---|
+| **Consistent granularity** | All items are page-level topics | Mix of "Homepage," "FAQ," and "Shipping returns policy for international orders" |
+| **Representative range** | Content spans the full breadth of the site/product | Only items from one section, skewing the groupings |
+| **Neutral framing** | Items don't suggest their own category | "Marketing resources" → participants just create a "Marketing" group |
+| **Right quantity** | 30-60 cards for individual sorts; 20-40 for team sorts | 100+ cards cause fatigue; fewer than 20 lack enough variety |
+
+**Content sources:**
+- New product → wish list of content types and features
+- Existing product → content inventory or audit (sample representative items, don't include everything)
+- Application → tasks, functions, and menu items
+
+#### Running the Sort
+
+**Facilitation tips:**
+- Do a test run first — catches duplicate content, confusing titles, and bad instructions
+- Let participants work at their own pace
+- Anticipate questions: "Can I put a card in two groups?" (usually yes for physical; depends on tool for digital)
+- For team sorts: listen to the *discussion*, not just the final grouping — reasoning is as valuable as results
+- For open sorts: ask participants to name their groups *after* sorting, not before (naming first biases the grouping)
+- Take notes on body language, hesitation, and verbal reasoning
+
+**Physical vs. digital:**
+- **Physical cards** (3"×5" index cards) — Better for face-to-face sorts, richer observation, team discussions
+- **Online tools** (OptimalSort, UserZoom, etc.) — Better for remote participants, larger samples, automatic data capture
+
+#### Analysis: Two Approaches
+
+Always do exploratory analysis first. Statistical analysis is optional and requires 15+ participants.
+
+**Exploratory analysis** (do this every time):
+
+1. **Look at each participant's results individually** — What classification schemes did they use? (Topic, task, audience, format?)
+2. **Create a spreadsheet** — Cards as rows, participant groups as columns. Look for where cards consistently land together
+3. **Identify strong pairs** — Which cards always go together across participants? These are natural siblings
+4. **Identify scattered cards** — Which cards end up in different groups for different people? These are ambiguous items that may need their own category or clearer labeling
+5. **Examine group labels** — What words did participants use? These are candidates for your navigation labels
+6. **Note outlier reasoning** — Sometimes one participant's unusual grouping reveals an insight everyone else missed
+
+**Statistical analysis** (for 15+ participants):
+
+| Method | What It Shows | How to Read It |
+|---|---|---|
+| **Similarity matrix** | How frequently each pair of cards was grouped together (percentage) | 70%+ = strong association → these belong together. 30-70% = moderate → investigate. Below 30% = weak → probably different categories |
+| **Hierarchical cluster analysis (dendrogram)** | Tree diagram showing which cards cluster together and at what level of similarity | Read bottom-up: cards that merge at lower levels are more closely related. Cut the tree at different heights to see different numbers of groups |
+| **Multidimensional scaling (MDS)** | 2D plot showing spatial "distance" between cards based on how often they were co-sorted | Cards close together were frequently grouped together. Clusters on the plot suggest natural categories. Isolated cards are ambiguous |
+
+**Cautions with statistics:**
+- Don't rely on statistics alone — they can suggest a tidy answer that doesn't reflect the messiness of real data
+- Always combine with exploratory analysis to understand *why* patterns exist
+- Statistical methods work poorly with fewer than 15 participants
+
+#### Applying Results to Information Architecture
+
+Card sort results are one input, not a dictation. Combine with business requirements, content strategy, and technical constraints.
+
+| Finding | IA Action |
+|---|---|
+| Strong card clusters with consistent labels | These are your primary categories — use participant labels as starting points |
+| Cards that land in different groups for different people | Consider cross-linking, faceted access, or multiple navigation paths |
+| Participant labels that differ from your current labels | Test the participant labels — they may work better because they match user language |
+| Groups that are too large (15+ cards) | Split into subcategories; use participant reasoning to find natural divisions |
+| Groups that are too small (1-2 cards) | Merge with a related group, or reconsider whether these items need their own category |
+| Multiple classification schemes across participants | Consider providing multiple navigation approaches (by topic, by task, by audience) |
+
+**After the card sort:** Validate the resulting IA with a tree test — give users tasks and ask them to navigate the category structure to find the right answer. Card sorting tells you how to organize; tree testing tells you if people can find things.
 
 ---
 

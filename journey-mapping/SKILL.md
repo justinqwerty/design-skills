@@ -270,6 +270,87 @@ Services unfold over time in ways that products don't. When mapping any service 
 
 ---
 
+## Strategic Use of Alignment Diagrams
+
+Alignment diagrams are not just diagnostic tools — they are strategic instruments. They shift an organization's perspective from inside-out to outside-in. When used strategically, they reframe competition, reveal hidden value, and connect customer insight to business direction.
+
+### Five Types of Value
+
+When mapping experiences, look beyond functional pain points. Users perceive value across multiple dimensions:
+
+| Value Type | What It Means | What to Map |
+|---|---|---|
+| **Functional** | Does it work? Does it solve the problem? | Task completion, efficiency, reliability |
+| **Emotional** | How does it make me feel? | Sentiment curve, moments of delight and frustration |
+| **Social** | How does it make me look to others? | Sharing behavior, referrals, social proof moments |
+| **Epistemic** | Does it teach me something new? | Learning moments, discovery, curiosity triggers |
+| **Identity** | Does it align with who I am or want to be? | Brand alignment, values, meaning beyond the transaction |
+
+Most journey maps only capture functional and emotional value. Including social, epistemic, and identity dimensions reveals opportunities that competitors miss.
+
+### Reframing Competition Through Maps
+
+In the eyes of your customer, anything that gets the job done is your rival. An experience map (product-agnostic) reveals this competitive landscape more accurately than market analysis:
+
+- **Map the activity, not your product.** "How do people manage their finances" not "How do people use our app"
+- **Note every tool and workaround.** Spreadsheets, sticky notes, phone calls to a friend — these are competitors
+- **Identify where value concentrates.** The phases with the most effort, emotion, and investment are where winning matters most
+
+### Aligning Employee Experience to Customer Experience
+
+If you treat employees right, they treat customers right. Employee experience (EX) mapping applies the same alignment diagram techniques to internal stakeholders.
+
+**When to map EX alongside CX:**
+- When frontline staff (support, sales, service) are part of the customer journey
+- When internal process friction is visibly affecting customer outcomes
+- When you're designing a service blueprint and need to understand backstage reality
+
+**How to connect them:**
+- Map the customer journey and the employee journey for the same scenario side by side
+- Identify moments where employee pain → customer pain (e.g., support agent can't access customer history → customer repeats their story)
+- Design for both: solutions that reduce employee friction often improve customer experience as a natural consequence
+
+---
+
+## Current State vs. Future State Mapping
+
+Most mapping focuses on current state — visualizing the experience as it is today. Future state mapping diagrams the intended experience you want to create.
+
+### When to Map Each
+
+| State | Purpose | Source |
+|---|---|---|
+| **Current state** | Diagnose problems, build empathy, align the team on reality | Research data — interviews, observation, analytics |
+| **Future state** | Envision the target experience, align on direction, guide design | Current-state insights + strategy + ideation |
+
+**Rule: Always map current state first.** A future state built on assumptions about today's experience will be built on sand. Current state reveals the actual gaps; future state fills them deliberately.
+
+### Building a Future State Map
+
+1. **Start from the current state** — Identify the 3-5 biggest pain points, broken moments of truth, and unmet needs
+2. **Envision the ideal at each phase** — For each problem area, describe what the experience *should* be. Use the same syntax (actions, thoughts, feelings) so current and future are directly comparable
+3. **Mark what changes** — Highlight the delta between current and future. This is your scope of work
+4. **Plan experiments** — For each proposed change, define a lightweight test. How will you validate that the future state is actually better before committing to it?
+5. **Connect to roadmap** — Each change becomes a backlog item or initiative. The future state map is a visual roadmap overlay
+
+### Presentation Options
+
+- **Side-by-side** — Current state on top, future state below. Good for workshops and stakeholder alignment
+- **Overlay** — Future state changes annotated directly on the current state map. Good for focused improvements
+- **Separate diagram** — Full future state as its own artifact. Good when the vision is fundamentally different from today
+
+### Strategy Visualization Complements
+
+Alignment diagrams pair with other strategic visualizations for broader context:
+
+| Visualization | What It Shows | How It Complements Alignment Diagrams |
+|---|---|---|
+| **Business Model Canvas** | How value is created, delivered, and captured | Connects CJM pain points to revenue model and cost structure |
+| **Value Proposition Canvas** | How products map to customer jobs, pains, gains | Bridges experience map opportunities to product-market fit |
+| **Strategy Canvas** | How you differentiate from competitors across factors | Overlays competitive positioning onto the experience map's phases |
+
+---
+
 ## Common Mistakes
 
 | Mistake | Why It Fails | Instead |

@@ -5,7 +5,7 @@ description: Connect design decisions to business outcomes through competitive a
 
 # UX Strategy
 
-You are an expert in UX strategy — the discipline that connects design decisions to business outcomes and customer value. Your recommendations are grounded in Teresa Torres's Continuous Discovery Habits (Opportunity Solution Trees, outcome-driven discovery), Jim Kalbach's Jobs to Be Done Playbook (job mapping, desired outcomes, switch analysis), Jaime Levy's UX Strategy (competitive analysis, value innovation, funnel design), Jeff Gothelf and Josh Seiden's Lean UX (hypothesis-driven design, outcomes over outputs), and Google's HEART framework for UX metrics.
+You are an expert in UX strategy — the discipline that connects design decisions to business outcomes and customer value. Your recommendations are grounded in Teresa Torres's Continuous Discovery Habits (Opportunity Solution Trees, outcome-driven discovery), Jim Kalbach's Jobs to Be Done Playbook (job mapping, desired outcomes, switch analysis), Jaime Levy's UX Strategy (competitive analysis, value innovation, funnel design), Jeff Gothelf and Josh Seiden's Lean UX (hypothesis-driven design, outcomes over outputs), Victor Papanek's Design for the Real World (ethical responsibility, shared value, designing for underserved populations), and Google's HEART framework for UX metrics.
 
 *UX strategy is the high-level plan to achieve business goals under conditions of uncertainty. It precedes wireframes, visual design, and development. Without it, teams build features no one needs. With it, every design decision traces back to a reason.*
 
@@ -328,6 +328,70 @@ Measure people, not actions. "500 users completed onboarding" is more meaningful
 | **6. Measure** | Instrument product, track outcomes, close feedback loop | Metrics dashboard, learning log |
 
 This is not linear. Discovery feeds analysis, validation feeds back to discovery, measurement informs the next cycle.
+
+---
+
+## Ethical and Responsible Strategy
+
+Strategy that ignores social impact eventually fails — through regulation, reputation damage, or simply building products that harm the people they're meant to serve. Responsible strategy isn't a constraint on innovation; it's a lens that expands the field of opportunities. This framework draws on Victor Papanek's design responsibility principles and connects them to practical strategy decisions.
+
+### The Responsibility Check
+
+Before committing to a strategic direction, test it against three dimensions:
+
+| Dimension | Question | Red Flag |
+|---|---|---|
+| **Harm** | Could this cause harm to users, non-users, or communities — even unintentionally? | Dark patterns, addictive loops, data exploitation, exclusion of vulnerable populations |
+| **Access** | Who benefits and who is excluded? Are we designing for the people who need this most, or only the most profitable segment? | Product only works for affluent, tech-savvy, English-speaking, able-bodied users |
+| **Sustainability** | Does this contribute to or extract from the broader ecosystem? What happens at scale? | Winner-take-all dynamics, environmental cost, depletion of shared resources |
+
+### Designing for Underserved Populations
+
+The most commercially successful products are often those that solve problems for underserved populations — not because of charity, but because underserved markets represent untapped demand.
+
+**Strategic approach:**
+1. **Identify who is excluded** by current solutions — affordability, accessibility, literacy, infrastructure, cultural context
+2. **Understand their constraints** — These constraints are design requirements, not obstacles. A product that works with low bandwidth, low literacy, or low cost is often a better product for *everyone*
+3. **Design within constraints** — Solutions designed for constrained environments frequently become mainstream innovations (SMS-based banking → mobile payments; voice interfaces for accessibility → smart speakers for all)
+4. **Test with real users in real contexts** — Not in a lab. In the environment where the product will be used
+
+### Shared Value Creation
+
+Traditional strategy asks: "How do we capture value?" Shared value asks: "How do we create value for both the business *and* society with every interaction?"
+
+| Traditional Value | Shared Value |
+|---|---|
+| Maximize profit per customer | Create value that grows the total market |
+| Extract attention and data | Provide genuine utility that earns trust |
+| Compete for existing demand | Expand access to create new demand |
+| Optimize for engagement metrics | Optimize for user outcomes |
+
+**Practical application:** For each opportunity on your OST, ask: "Does solving this create value only for us, or does it make the user's life genuinely better?" Opportunities where both align are more durable than those where they diverge.
+
+### Ethical Assumption Testing
+
+The strategy skill already includes "Ethical" as an assumption type. Here's how to test it rigorously:
+
+| Test | How to Run It | What It Reveals |
+|---|---|---|
+| **Pre-mortem** | Ask: "It's one year from now, and this product has caused harm. What happened?" Brainstorm failure modes | Unintended consequences you haven't considered |
+| **Worst-case user** | Identify the most vulnerable person who might use this. Design for them | Edge cases that become ethical issues at scale |
+| **Misuse scenario** | Ask: "How could a bad actor exploit this?" Map abuse vectors | Security, privacy, and manipulation risks |
+| **Exclusion audit** | List who cannot use the product and why (disability, language, cost, infrastructure, literacy) | Access barriers that limit both market and impact |
+| **Long-term incentive check** | Ask: "If this succeeds, what behavior does it incentivize over 5 years?" | Whether success creates healthy or extractive dynamics |
+
+### Integrating Ethics into the Strategy Process
+
+Ethics is not a separate phase — it's a lens applied throughout:
+
+| Strategy Phase | Ethical Integration |
+|---|---|
+| **Frame** | Include "Who could be harmed?" alongside "Who benefits?" in the strategy brief |
+| **Discover** | Interview underserved and excluded users, not just primary personas |
+| **Analyze** | In competitive analysis, note where competitors exploit users — this is a differentiation opportunity |
+| **Define** | Add at least one ethical assumption to the leap-of-faith list |
+| **Validate** | Run at least one test with a vulnerable or underserved user group |
+| **Measure** | Track harm indicators alongside success metrics (support complaints, accessibility scores, exclusion rates) |
 
 ---
 

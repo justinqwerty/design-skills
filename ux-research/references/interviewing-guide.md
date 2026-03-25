@@ -131,6 +131,58 @@ The most reliable interview data comes from stories about actual past behavior. 
 | Taking sides | You agree or disagree with their opinions | Stay neutral: "That's interesting, tell me more" |
 | Running through the script | You ask every question regardless of flow | Use the guide as a reference, not a checklist |
 
+## Deep Listening for Empathy Development
+
+Beyond standard interviewing, deep listening is a complementary technique for developing cognitive empathy — understanding another person's reasoning, reactions, and guiding principles. This approach, grounded in Indi Young's work, focuses on the problem space rather than the solution space.
+
+### How Deep Listening Differs from Standard Interviewing
+
+| Aspect | Standard Interview | Deep Listening Session |
+|---|---|---|
+| **Goal** | Collect data about behavior and needs | Develop understanding of reasoning and guiding principles |
+| **Structure** | Interview guide with prepared questions | Non-directed conversation following the person's lead |
+| **Scope** | Focused on a product or domain | Broader than your product — explores a purpose |
+| **Output** | Observations, quotes, themes | Inner thinking, emotional reactions, guiding principles |
+| **Preparation** | Detailed question script | Minimal — no prewritten questions will get you there |
+
+### What to Listen For
+
+Focus on three components during a deep listening session:
+
+1. **Inner thinking** — The reasoning behind decisions and actions. Not what they did, but *why* they decided to do it. The whys and wherefores, decision-making and indecision, causation
+2. **Emotional reactions** — Feelings that arise in response to events. These are signals, not data points — use them to dig deeper into reasoning
+3. **Guiding principles** — Deeply held philosophies that steer behavior over time. These are the most valuable and hardest to surface. They explain patterns across many decisions
+
+### Deep Listening Techniques
+
+**Follow the peaks and valleys.** Pay attention to emotional high and low points. These reveal where the deepest reasoning and strongest reactions live.
+
+**Neutralize your own reactions.** When something triggers agreement, disagreement, surprise, or an idea in you — notice it and let it pass. Your reactions pull attention away from the speaker. Practice recognizing and dissipating these distractions.
+
+**Harness emotional empathy as a signal.** When you feel the same emotion as the speaker, use it as a cue to dig deeper into *their* reasoning — not as an invitation to share your own similar experience.
+
+**Set aside your agenda.** Don't redirect toward your product, your features, or your hypotheses. Let the person lead. If they go somewhere unexpected, that's where insight lives.
+
+**Exhibit understanding, not competence.** Shift from demonstrating your expertise to genuinely understanding their perspective. Curiosity about people is the key ingredient.
+
+### After a Deep Listening Session
+
+Spend at least 10 minutes per person reviewing what they said. You are guaranteed to misconstrue meanings if you don't. This is still developing empathy — not yet analyzing. Stay focused on one person at a time.
+
+For each concept that contributes to empathy (reasoning, reaction, or guiding principle):
+1. **Start with the verb** — what is the person trying to accomplish or work through?
+2. **Write the rest** — capture the reasoning, the emotional reaction, or the guiding principle
+3. **Edit until clean** — make it clear and concise, using the person's own words where possible
+
+### When to Use Deep Listening vs. Standard Interviews
+
+- **Standard interviews** → When you need actionable data about behavior, workflows, and pain points for a specific product
+- **Deep listening** → When you need to understand the problem space before defining solutions, when building behavioral audience segments, or when your team is making assumptions about *why* users behave the way they do
+
+Both techniques produce valuable research. Deep listening feeds the slower, person-focused cycle that balances the faster solution-focused cycle.
+
+---
+
 ## After the Interview
 
 ### Immediate Debrief (within 1 hour)

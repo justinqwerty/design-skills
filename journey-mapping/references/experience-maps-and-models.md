@@ -201,6 +201,89 @@ The ecology map gives you the big picture. The blueprint gives you operational d
 
 ---
 
+## User Story Maps
+
+### What They Are
+
+A user story map is a two-dimensional arrangement of user activities that helps teams plan product releases around user workflow rather than technical priorities. The horizontal axis shows the user's journey (the backbone); the vertical axis shows priority from top (essential) to bottom (nice-to-have). It bridges the gap between understanding the user's experience and planning what to build.
+
+### Structure
+
+A user story map has three layers:
+
+| Layer | Description | Position |
+|---|---|---|
+| **Activities** | High-level things the user does (verb phrases). These form the backbone — the narrative flow of the user's experience | Top row, left to right |
+| **User tasks** | The steps within each activity. Ordered by typical sequence or priority | Second row, under each activity |
+| **User stories / Details** | Specific stories, sub-tasks, or variations for each task. These populate the body of the map | Below tasks, stacked by priority (top = most essential) |
+
+### The Backbone
+
+The backbone is the single most important element. It's the user's journey told as a sequence of activities — the "walking skeleton" of the experience.
+
+**Building the backbone:**
+1. Start with the user's goal — what are they trying to accomplish end-to-end?
+2. List the major activities in chronological order (left to right)
+3. Keep it to 5-12 activities — if you have more, you're too granular
+4. Use verb phrases: "Set up account," "Create first project," "Invite team," "Track progress"
+5. Validate by reading it left to right — does it tell a coherent story?
+
+**Example backbone for a project management tool:**
+> Set up account → Create project → Define tasks → Assign work → Track progress → Review & report → Close project
+
+### Building the Full Map
+
+1. **Start with the backbone** — Get the activities right first
+2. **Add tasks under each activity** — What specific steps does the user take? Keep them ordered
+3. **Slice horizontally for releases** — Draw a line across the map. Everything above the line is Release 1 (the walking skeleton). Below is Release 2, 3, etc.
+4. **Fill in stories and details** — Add specific user stories, variations, and edge cases under each task
+5. **Prioritize vertically** — Essential at the top, nice-to-have at the bottom. The map should be readable top-to-bottom as "most important first"
+
+### Vertical Slicing
+
+The power of story maps is in vertical slicing — cutting thin, end-to-end slices through the map that deliver a complete (if minimal) experience.
+
+| Slice | What It Contains | Purpose |
+|---|---|---|
+| **Walking skeleton** (Release 1) | The minimum story for each activity — one task per column, bare essentials only | Deliver a functional end-to-end experience as fast as possible |
+| **Release 2** | Next priority stories — fills in the most painful gaps | Make the experience usable for early adopters |
+| **Release 3+** | Progressively richer stories, edge cases, power features | Mature the product toward full vision |
+
+**The rule:** Every release should be a complete story. Users should be able to go from left to right across the backbone and accomplish their goal, even if the experience is minimal. No release should be "all of activity 1 but none of activity 5."
+
+### When to Use a User Story Map
+
+- **Release planning** — When you need to decide what goes in Release 1 vs. later
+- **Shared understanding** — When the team can't agree on scope or priority
+- **Backlog organization** — When a flat backlog has lost its narrative structure
+- **New product discovery** — When you need to visualize the full user experience before building
+
+### When NOT to Use a User Story Map
+
+- Single-feature work — too heavy for one feature; use a simple task breakdown
+- Maintenance/bug work — no narrative backbone to map
+- When you don't know the user's journey yet — do experience mapping or research first
+
+### User Story Map vs. Other Diagrams
+
+| Aspect | User Story Map | Customer Journey Map |
+|---|---|---|
+| **Focus** | What to build and when | How the user feels and where they struggle |
+| **Audience** | Product team (PM, design, engineering) | Broader stakeholders, service design |
+| **Emotional layer** | Not included | Central element |
+| **Output** | Release plan, prioritized backlog | Insights, opportunities, alignment |
+| **When** | After you know what to build | Before or during discovery |
+
+### Collaborative Mapping
+
+Story maps work best as collaborative workshops:
+- **Who:** Product trio minimum (PM, designer, engineer). Include domain experts
+- **Materials:** Large wall, sticky notes, markers. Activities on one color, tasks on another, stories on a third
+- **Time:** 2-4 hours for initial map; 1 hour for refinement sessions
+- **Facilitation:** One person manages the backbone; everyone contributes stories. Read the map aloud as a story to validate
+
+---
+
 ## Choosing Between These Diagram Types
 
 | Question | Best Diagram |
