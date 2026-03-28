@@ -104,6 +104,10 @@ Use these as **illustrations of principles**, not as the system itself. The syst
 - **Apple**: Scale contrasts, photography integration, restraint as premium
 - **Swiss/International Style**: Grid discipline, objective clarity, mathematical spacing
 - **Trimble Modus**: Enterprise utility, Open Sans 14px body, 4px radius, uniform shadows, professional restraint
+- **IBM Carbon**: Sharp corners (0px radius), IBM Plex type family, 2x grid, four-theme architecture
+- **Shopify Polaris**: Merchant-friendly, warm neutrals, dark primary buttons, 13px body, rounded cards
+- **Adobe Spectrum**: Four color themes, two scale modes, three-layer token architecture, creative-tool patterns
+- **Salesforce Lightning**: CRM-optimized, brand blue #0176d3, slds- utility classes, record-detail patterns
 
 Refer to `references/design-exemplars.md` for specific techniques to borrow.
 
@@ -116,6 +120,46 @@ When building for Trimble products or when Modus styling is requested, **Modus t
 - Shadows: `0 0 4px rgba(36,35,45,0.3)` uniform (not directional)
 - Gray scale: Modus grays with cool/blue undertone (not Tailwind neutral grays)
 - Full reference: `references/modus-design-system.md`
+
+### IBM Carbon Override
+
+When building for IBM products or when Carbon styling is requested, **Carbon tokens override Tailwind defaults**:
+- Font: IBM Plex Sans (not Inter), body at 14px
+- Primary: `#0f62fe` Blue 60 (not Tailwind blue-600)
+- Border radius: `0` everywhere (not `rounded-lg`) — Carbon's signature sharp corners
+- Text: `#161616` Gray 100 (not Tailwind gray-900)
+- Layers: alternating white/gray-10 (`#f4f4f4`) for depth
+- Full reference: `references/carbon-design-system.md`
+
+### Shopify Polaris Override
+
+When building Shopify apps or when Polaris styling is requested, **Polaris tokens override Tailwind defaults**:
+- Font: Inter, body at 13px (not 16px)
+- Primary buttons: `#303030` dark (not blue!)
+- Interactive/links: `#005bd3`
+- Page background: `#f1f1f1` (not white)
+- Border radius: `8px` for cards, `6px` for buttons
+- Full reference: `references/polaris-design-system.md`
+
+### Adobe Spectrum Override
+
+When building Adobe products or when Spectrum styling is requested, **Spectrum tokens override Tailwind defaults**:
+- Font: Adobe Clean / Source Sans Pro, body at 14px
+- Accent: `#0D80D8` (light) / `#2A9AF4` (dark)
+- Border radius: `4px` for controls, `8px` for cards
+- Four themes: Lightest, Light, Dark, Darkest
+- Two scales: Medium (desktop), Large (touch)
+- Full reference: `references/spectrum-design-system.md`
+
+### Salesforce Lightning Override
+
+When building Salesforce apps or when Lightning/SLDS styling is requested, **SLDS tokens override Tailwind defaults**:
+- Font: Salesforce Sans, body at 13px
+- Brand: `#0176d3` (not Tailwind blue-600)
+- Border radius: `4px` (0.25rem) everywhere
+- Text: `#181818` (not Tailwind gray-900)
+- Uses `slds-` prefix utility classes
+- Full reference: `references/lightning-design-system.md`
 
 ## Critical Design Moves (Quick Reference)
 
@@ -152,7 +196,11 @@ For efficiency, load resources in this order:
 3. `references/technique-catalog.md` — Load for specific techniques
 4. `references/design-interrogation.md` — Load for quality checks
 5. `references/modus-design-system.md` — Load when Trimble/Modus styling is requested
-6. Context-specific references (color, typography, spacing, grids) as needed
+6. `references/carbon-design-system.md` — Load when IBM/Carbon styling is requested
+7. `references/polaris-design-system.md` — Load when Shopify/Polaris styling is requested
+8. `references/spectrum-design-system.md` — Load when Adobe/Spectrum styling is requested
+9. `references/lightning-design-system.md` — Load when Salesforce/Lightning styling is requested
+10. Context-specific references (color, typography, spacing, grids) as needed
 
 ## Output Standards
 

@@ -111,6 +111,90 @@ color: #252A2E; /* Trimble Gray for body text */
 
 **Full reference**: See `references/modus-design-system.md` for complete token tables, component specs, dark mode values, and data visualization palettes.
 
+### IBM Carbon
+**What they do exceptionally**:
+- Structured, geometric aesthetic with sharp corners (0px radius)
+- IBM Plex type family (Sans, Mono, Serif) — one of the best open-source type families
+- 2x grid system with rigorous spatial logic
+- Four-theme architecture (White, g10, g90, g100)
+- Information-dense enterprise interfaces that remain clear
+
+**Key techniques to borrow**:
+```css
+/* Carbon foundations */
+font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+font-size: 14px;
+border-radius: 0; /* Sharp corners — Carbon's signature */
+color: #161616; /* Gray 100 */
+--interactive: #0f62fe; /* Blue 60 */
+--layer-01: #f4f4f4; /* Gray 10 */
+```
+
+**Full reference**: See `references/carbon-design-system.md` for complete token tables, component specs, theme values, and data visualization palettes.
+
+### Shopify Polaris
+**What they do exceptionally**:
+- Merchant-friendly, approachable-yet-professional aesthetic
+- Warm neutral palette with subtle shadows and beveled buttons
+- Dark primary buttons (#303030, not blue) — distinctive choice
+- Excellent resource list and index table patterns for commerce
+- Skeleton loading states and progressive disclosure
+
+**Key techniques to borrow**:
+```css
+/* Polaris foundations */
+font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+font-size: 13px; /* Compact body text */
+border-radius: 8px; /* Cards */
+background: #f1f1f1; /* Page background */
+color: #303030; /* Primary text */
+--interactive: #005bd3; /* Links and interactive */
+```
+
+**Full reference**: See `references/polaris-design-system.md` for complete token tables, component specs, dark mode values, and data visualization palettes.
+
+### Adobe Spectrum
+**What they do exceptionally**:
+- Four color themes (Lightest, Light, Dark, Darkest) with seamless switching
+- Two scale modes (Medium for desktop, Large for touch)
+- Three-layer token architecture (global → alias → component)
+- Rich creative-tool UI patterns optimized for professional workflows
+- Comprehensive motion and animation system
+
+**Key techniques to borrow**:
+```css
+/* Spectrum foundations */
+font-family: 'Adobe Clean', adobe-clean, 'Source Sans Pro', sans-serif;
+font-size: 14px;
+border-radius: 4px; /* Controls */
+color: #222222; /* Body text */
+--accent: #0D80D8; /* Accent blue (light theme) */
+--background: #F5F5F5; /* Layer 1 background */
+```
+
+**Full reference**: See `references/spectrum-design-system.md` for complete token tables, component specs, theme values, and data visualization palettes.
+
+### Salesforce Lightning (SLDS)
+**What they do exceptionally**:
+- Massive enterprise design system serving the world's largest CRM ecosystem
+- Distinctive brand blue (#0176d3) with confident page headers
+- Comprehensive utility class system (`slds-` prefix)
+- Record-detail and list-view patterns optimized for CRM workflows
+- Robust icon system with standard object colors
+
+**Key techniques to borrow**:
+```css
+/* Lightning/SLDS foundations */
+font-family: 'Salesforce Sans', Arial, sans-serif;
+font-size: 13px; /* Compact body */
+border-radius: 4px; /* 0.25rem default */
+color: #181818; /* Primary text */
+--brand: #0176d3; /* Brand blue */
+--page-header-bg: #f3f3f3;
+```
+
+**Full reference**: See `references/lightning-design-system.md` for complete token tables, component specs, dark mode values, and data visualization palettes.
+
 ## Design Movements & Principles
 
 ### Swiss/International Style
