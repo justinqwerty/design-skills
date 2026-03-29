@@ -1,6 +1,6 @@
 # Design Skills for Claude Code
 
-A collection of UX and design skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code). These skills give Claude deep knowledge of established design frameworks, heuristics, and methodologies — turning it into an informed design partner rather than a generic assistant.
+A collection of UX and design skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Cursor](https://www.cursor.com/), and [Codex](https://openai.com/index/introducing-codex/). These skills give your AI coding tool deep knowledge of established design frameworks, heuristics, and methodologies — turning it into an informed design partner rather than a generic assistant.
 
 Each skill follows the same architecture: a main `SKILL.md` file that works standalone, plus `references/`, `templates/`, and `examples/` directories that provide depth on demand.
 
@@ -98,29 +98,55 @@ Systematically elevates any visual output — dashboards, presentations, reports
 
 ## Installation
 
-### Install all skills
+Clone the repo first, then copy skills to the right directory for your tool.
 
 ```bash
-# Clone the repo
 git clone https://github.com/cuellarfr/design-skills.git
-
-# Copy all skills to your Claude Code skills directory
-cp -r design-skills/*/ ~/.claude/skills/
 ```
 
-### Install a single skill
+### Claude Code
 
 ```bash
-# Example: install only the design critique skill
+# All skills
+cp -r design-skills/*/ ~/.claude/skills/
+
+# Single skill
 cp -r design-skills/design-critique ~/.claude/skills/
 ```
 
-### Verify installation
+Skills are automatically detected. Start a new conversation and they'll appear in the available skills list.
 
-Skills are automatically detected by Claude Code. After copying, start a new conversation and the skills will appear in the available skills list. You can verify by asking Claude:
+### Cursor
 
+```bash
+# All skills — copy each SKILL.md as a rule file
+for dir in design-skills/*/; do
+  name=$(basename "$dir")
+  cp "$dir/SKILL.md" ~/.cursor/rules/${name}.mdc
+done
+
+# Single skill
+cp design-skills/design-critique/SKILL.md ~/.cursor/rules/design-critique.mdc
 ```
-What design skills do you have available?
+
+Rules are loaded automatically. Reference files (`references/`, `templates/`, `examples/`) can be copied into your project or referenced manually when deeper context is needed.
+
+### Codex
+
+```bash
+# All skills — copy to your project's agents directory
+mkdir -p .codex/skills
+cp -r design-skills/*/ .codex/skills/
+
+# Single skill
+mkdir -p .codex/skills
+cp -r design-skills/design-critique .codex/skills/
+```
+
+Then reference the skills in your `AGENTS.md` or `codex.md` file:
+
+```markdown
+See .codex/skills/ for design reference materials.
 ```
 
 ## Skill Architecture

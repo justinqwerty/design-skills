@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Design Skills for Claude Code</title>
-  <meta name="description" content="Give Claude Code real design knowledge. 9 open-source skills covering research, critique, accessibility, journey mapping, design systems, strategy, interaction design, design ops, and visual polish.">
+  <meta name="description" content="Give your AI coding tool real design knowledge. 10 open-source skills for Claude Code, Cursor, and Codex covering research, critique, accessibility, journey mapping, design systems, strategy, interaction design, UX writing, design ops, and visual polish.">
   <style>
     /* --- Reset --- */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -199,7 +199,7 @@
 
     .install-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       gap: calc(var(--unit) * 4);
       margin-top: calc(var(--unit) * 4);
     }
@@ -476,18 +476,39 @@
       <h2 class="section-label">Installation</h2>
       <div class="install-grid">
         <div class="install-block">
-          <h3>All skills</h3>
+          <h3>Claude Code</h3>
           <pre><code><span class="c"># Clone the repo</span>
 git clone https://github.com/cuellarfr/design-skills.git
 
-<span class="c"># Copy all skills to Claude Code</span>
-cp -r design-skills/*/ ~/.claude/skills/</code></pre>
-        </div>
-        <div class="install-block">
-          <h3>Single skill</h3>
-          <pre><code><span class="c"># Example: install only design critique</span>
+<span class="c"># Copy all skills</span>
+cp -r design-skills/*/ ~/.claude/skills/
+
+<span class="c"># Or a single skill</span>
 cp -r design-skills/design-critique \
   ~/.claude/skills/</code></pre>
+        </div>
+        <div class="install-block">
+          <h3>Cursor</h3>
+          <pre><code><span class="c"># Copy each SKILL.md as a rule</span>
+for dir in design-skills/*/; do
+  name=$(basename "$dir")
+  cp "$dir/SKILL.md" \
+    ~/.cursor/rules/${name}.mdc
+done
+
+<span class="c"># Or a single skill</span>
+cp design-skills/design-critique/SKILL.md \
+  ~/.cursor/rules/design-critique.mdc</code></pre>
+        </div>
+        <div class="install-block">
+          <h3>Codex</h3>
+          <pre><code><span class="c"># Copy to your project</span>
+mkdir -p .codex/skills
+cp -r design-skills/*/ .codex/skills/
+
+<span class="c"># Then in AGENTS.md or codex.md:</span>
+<span class="c"># See .codex/skills/ for design</span>
+<span class="c"># reference materials.</span></code></pre>
         </div>
       </div>
     </div>
